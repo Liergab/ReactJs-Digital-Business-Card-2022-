@@ -1,0 +1,113 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+
+}
+
+.main-container{
+  width: 320px;
+  height: 100%;
+  border: 1px solid black;
+  /* background: #1A1B21; */
+  border-radius: 20px;
+}
+
+.Img_Container img{
+  width: 320px;
+  height: 320px;
+  border-radius: 20px 20px 0 0;
+}
+
+.Info-container h1{
+  font-size: 25px;
+  line-height: 10px;
+  text-align: center;
+  /* color: white; */
+  font-weight: 600;
+}
+
+.Info-container h2{
+  font-size: 13px;
+  line-height: 10px;
+  color: #F3BF99;
+  text-align: center;
+  font-weight: 400;
+}
+
+.Info-container h3{
+  font-size: 10px;
+  line-height: 10px;
+  color: #F3BF99;
+  text-align: center;
+  font-weight: 400;
+  
+}
+.Info-container .Email-btn{
+  height: 34px;
+  width: 110px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+.Info-container .Email-btn:hover{
+  background-color: antiquewhite;
+}
+.Info-container .LinkedIn-btn{
+  height: 34px;
+  width: 110px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 20px;
+  background-color: rgb(19, 81, 180);
+  /* color: white; */
+}
+.Info-container .LinkedIn-btn:hover{
+  
+  background-color: rgb(51, 119, 229);
+  
+}
+
+.About-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 10px 35px;
+
+}
+.About-container h1{
+  font-size: 16px;
+  /* color: white; */
+  margin: 0;
+  text-align: left;
+}
+.About-container p{
+  /* color: white; */
+  font-size: 10px;
+  line-height: 15px;
+  text-align: left;
+}
+
+.Footer-container{
+  width: 317px;
+  height: 64px;
+
+  background: #161619;
+  border-radius: 0px 0px 20px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly ;
+}
+.Footer-container .fa-brands{
+  font-size:32px ;
+  color: #918E9B;
+  
+}
